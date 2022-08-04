@@ -1,11 +1,23 @@
 <mxfile host="65bd71144e">
     <diagram id="qEhMFQczNosqDtj-h41S" name="Page-1">
-        <mxGraphModel dx="1018" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1018" dy="362" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="3" value="&lt;h4&gt;Написать программу, которая из имеющегося массива строк формирует массив из строк, длина которых меньше или равна 3 символа. Первоначальный массив можно ввести с клавиатуры, либо задать на старте выполения алгоритма. при решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="44" y="30" width="740" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;html=1;entryX=0.533;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="START" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="140" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="lentgh&lt;br&gt;massive = [length]&lt;br&gt;new_massive[&lt;br&gt;i = 0" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="250" width="270" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="i &amp;lt; massive.length?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="380" width="200" height="130" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
