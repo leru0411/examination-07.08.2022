@@ -4,8 +4,18 @@
 // либо задать на старте выполения алгоритма. 
 //при решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
 
-int Prompt(string message)
+string Prompt(string message)
 {
     System.Console.Write(message);
-    return int.Parse(Console.ReadLine());
+    return Console.ReadLine();
+}
+
+string[] GenerateArray(int length, string message)
+{
+    string[] massive = new string[length];
+    for (int i = 0; i < length; i++)
+    {
+        massive[i] = Prompt(message);
+    }
+    return massive;
 }
