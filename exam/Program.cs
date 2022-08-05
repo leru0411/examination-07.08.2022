@@ -19,3 +19,11 @@ string[] GenerateArray(int length, string message)
     }
     return massive;
 }
+
+void PrintMassive(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        System.Console.Write($"{array[i]}; ");
+    }
+}
