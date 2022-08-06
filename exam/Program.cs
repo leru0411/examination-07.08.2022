@@ -9,6 +9,11 @@ string Prompt(string message)
     System.Console.Write(message);
     return Console.ReadLine();
 }
+int PromptTwo(string message)
+{
+    System.Console.Write(message);
+    return int.Parse(Console.ReadLine());
+}
 
 string[] GenerateArray(int length, string message)
 {
@@ -25,5 +30,15 @@ void PrintMassive(string[] array)
     for (int i = 0; i < array.Length; i++)
     {
         System.Console.Write($"{array[i]}; ");
+    }
+}
+void GenerateNewArray (string[] array)
+{
+    for(int i = 0; i < array.Length; i++)
+    {
+        if (array[i].Length <= 3)
+        {
+            System.Console.Write($"{array[i]}; ");
+        }
     }
 }
