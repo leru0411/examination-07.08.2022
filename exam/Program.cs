@@ -42,3 +42,7 @@ void GenerateNewArray (string[] array)
         }
     }
 }
+int n = PromptTwo("Введите число - длину массива: ");
+string[] massive = GenerateArray(n, "Введите любые символы: ");
+PrintMassive(massive);
+GenerateNewArray(massive);
