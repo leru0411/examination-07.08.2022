@@ -33,13 +33,14 @@ void PrintMassive(string[] array)
     }
     System.Console.WriteLine();
 }
-void GenerateNewArray (string[] array)
+void GenerateNewArray (string[] massive)
 {
-    for(int i = 0; i < array.Length; i++)
+    int length = massive.Length;
+    for(int i = 0; i < length; i++)
     {
-        if (array[i].Length <= 3)
+        if (massive[i].Length <= 3)
         {
-            System.Console.Write($"{array[i]}; ");
+            System.Console.Write($"{massive[i]}; ");
         }
     }
 }
