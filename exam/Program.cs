@@ -4,7 +4,7 @@
 // либо задать на старте выполения алгоритма. 
 //при решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
 
-string Prompt(string message)
+string Prompt(string message) // метод для ввода строк в массив
 {
     System.Console.Write(message);
     return Console.ReadLine();
@@ -15,7 +15,7 @@ int PromptTwo(string message)
     return int.Parse(Console.ReadLine());
 }
 
-string[] GenerateArray(int length, string message)
+string[] GenerateArray(int length, string message)  //генерация основного массива, в который поочередно вводим строки
 {
     string[] massive = new string[length];
     for (int i = 0; i < length; i++)
@@ -25,7 +25,7 @@ string[] GenerateArray(int length, string message)
     return massive;
 }
 
-void PrintMassive(string[] array)
+void PrintMassive(string[] array) //метод вывода массива
 {
     for (int i = 0; i < array.Length; i++)
     {
@@ -33,7 +33,7 @@ void PrintMassive(string[] array)
     }
     System.Console.WriteLine();
 }
-void GenerateNewArray (string[] massive)
+void GenerateNewArray (string[] massive)  //вывод элементов массива, соответствующих условию задачи
 {
     int length = massive.Length;
     for(int i = 0; i < length; i++)
