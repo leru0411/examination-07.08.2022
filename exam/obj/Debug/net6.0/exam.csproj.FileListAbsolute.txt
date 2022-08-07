@@ -1,0 +1,15 @@
+D:\geek_brains\1 четверть\Контрольная\exam\bin\Debug\net6.0\exam.exe
+D:\geek_brains\1 четверть\Контрольная\exam\bin\Debug\net6.0\exam.deps.json
+D:\geek_brains\1 четверть\Контрольная\exam\bin\Debug\net6.0\exam.runtimeconfig.json
+D:\geek_brains\1 четверть\Контрольная\exam\bin\Debug\net6.0\exam.dll
+D:\geek_brains\1 четверть\Контрольная\exam\bin\Debug\net6.0\exam.pdb
+D:\geek_brains\1 четверть\Контрольная\exam\obj\Debug\net6.0\exam.csproj.AssemblyReference.cache
+D:\geek_brains\1 четверть\Контрольная\exam\obj\Debug\net6.0\exam.GeneratedMSBuildEditorConfig.editorconfig
+D:\geek_brains\1 четверть\Контрольная\exam\obj\Debug\net6.0\exam.AssemblyInfoInputs.cache
+D:\geek_brains\1 четверть\Контрольная\exam\obj\Debug\net6.0\exam.AssemblyInfo.cs
+D:\geek_brains\1 четверть\Контрольная\exam\obj\Debug\net6.0\exam.csproj.CoreCompileInputs.cache
+D:\geek_brains\1 четверть\Контрольная\exam\obj\Debug\net6.0\exam.dll
+D:\geek_brains\1 четверть\Контрольная\exam\obj\Debug\net6.0\refint\exam.dll
+D:\geek_brains\1 четверть\Контрольная\exam\obj\Debug\net6.0\exam.pdb
+D:\geek_brains\1 четверть\Контрольная\exam\obj\Debug\net6.0\exam.genruntimeconfig.cache
+D:\geek_brains\1 четверть\Контрольная\exam\obj\Debug\net6.0\ref\exam.dll

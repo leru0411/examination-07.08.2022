@@ -3,3 +3,47 @@
 //Первоначальный массив можно ввести с клавиатуры,
 // либо задать на старте выполения алгоритма. 
 //при решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
+
+string Prompt(string message)
+{
+    System.Console.Write(message);
+    return Console.ReadLine();
+}
+int PromptTwo(string message)
+{
+    System.Console.Write(message);
+    return int.Parse(Console.ReadLine());
+}
+
+string[] GenerateArray(int length, string message)
+{
+    string[] massive = new string[length];
+    for (int i = 0; i < length; i++)
+    {
+        massive[i] = Prompt(message);
+    }
+    return massive;
+}
+
+void PrintMassive(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        System.Console.Write($"{array[i]}; ");
+    }
+    System.Console.WriteLine();
+}
+void GenerateNewArray (string[] array)
+{
+    for(int i = 0; i < array.Length; i++)
+    {
+        if (array[i].Length <= 3)
+        {
+            System.Console.Write($"{array[i]}; ");
+        }
+    }
+}
+int n = PromptTwo("Введите число - длину массива: ");
+string[] massive = GenerateArray(n, "Введите любые символы: ");
+PrintMassive(massive);
+GenerateNewArray(massive);
