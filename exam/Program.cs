@@ -31,6 +31,7 @@ void PrintMassive(string[] array)
     {
         System.Console.Write($"{array[i]}; ");
     }
+    System.Console.WriteLine();
 }
 void GenerateNewArray (string[] array)
 {
